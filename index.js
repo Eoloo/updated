@@ -13,6 +13,10 @@ function increment() {
     countEl.innerText = count
 }
 
+
+function save() {
+    console.log(count)
+}
 //change the count-el in the HTML to reflect the new count
 //let countEl = document.getElementById("count-el")
 //console.log(countEl)
